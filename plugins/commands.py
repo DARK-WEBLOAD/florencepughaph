@@ -43,7 +43,7 @@ async def start(client, message):
             InlineKeyboardButton('🎪 Jᴏɪɴ Uᴘᴅᴀᴛᴇs 🎪', url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
             ],[
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('😈 𝐀𝐛𝐨𝐮𝐭', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
